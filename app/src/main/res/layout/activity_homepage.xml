@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D121E"
+    tools:context=".homepage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D121E"
+        app:subtitle=""
+        app:subtitleTextColor="@color/material_dynamic_neutral40"
+        app:title="AXForAsset"
+        app:titleTextColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        />
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="465dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.tabs.TabLayout
+            app:tabIndicatorColor="#0D121E"
+            android:id="@+id/tableLayout"
+            app:tabTextColor="@color/material_dynamic_neutral40"
+            android:background="@drawable/tabselect"
+            app:tabSelectedTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+    </androidx.viewpager.widget.ViewPager>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

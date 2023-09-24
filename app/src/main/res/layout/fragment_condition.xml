@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0E1E37"
+    tools:context=".condition">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="You must be of legal age or have obtained consent from a legal guardian to use our services.\n
+\n
+You must create an account and keep your account information confidential to access certain features of our services.\n
+\n
+You must not reproduce, distribute, modify, or create derivative works of any materials obtained through our services without our prior written consent.\n
+\n
+You must use our services for lawful purposes only and not engage in any activities that may be deemed abusive, defamatory, fraudulent, or in violation of any applicable laws or regulations.\n
+\n
+You agree to allow us to collect, store, process, and use your personal and non-personal information in accordance with our Privacy Policy.\n
+\n
+You acknowledge that AXForAsset and its affiliates shall not be liable for any damages arising out of or in connection with the use or inability to use our services.\n
+\n
+We reserve the right to terminate or suspend your access to our services at any time without prior notice or liability.\n
+\n
+We may modify or update this Agreement at any time without prior notice and it is your responsibility to review it periodically.\n
+\n
+Any disputes arising out of or relating to this Agreement shall be subject to the exclusive jurisdiction of the courts located on Earth.\n
+\n
+By using our services, you agree to abide by these conditions.\n"/>
+
+    </ScrollView>
+
+</FrameLayout>

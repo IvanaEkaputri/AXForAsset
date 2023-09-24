@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0E1E37"
+    tools:context=".terms">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="Welcome to our services!\n
+By using our platform, you agree to abide by the following Terms of Service between you and AXForAsset. Please read this Agreement carefully before accessing or using our services. By accessing or using our services, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions outlined in this Agreement.\n
+\n
+Acceptance of Terms\n
+By using our services, You acknowledge that You have reached the legal age in Your jurisdiction to enter into a binding contract or have obtained the necessary consent from Your legal guardian. If You do not agree with any provision of this Agreement, You must immediately cease using our services.\n
+\n
+Account Creation and Security\n
+To access certain features of our services, You may be required to create an account. You are responsible for maintaining the confidentiality of Your account information, including Your username and password. You agree to notify Us immediately of any unauthorized access or use of Your account.\n
+\n
+Intellectual Property\n
+All intellectual property rights, including but not limited to copyrights, trademarks, and patents, related to our services and content provided therein are the exclusive property of AXForAsset . You agree not to reproduce, distribute, modify, or create derivative works of any materials obtained through our services without our prior written consent.\n
+\n
+User Conduct\n
+You agree to use our services for lawful purposes only. You shall not engage in any activities that may be deemed abusive, defamatory, fraudulent, or in violation of any applicable laws or regulations. Furthermore, You agree not to interfere with the functionality of our services or disrupt the experience of other users.\n
+\n
+Data Collection and Privacy\n
+We may collect certain personal and non-personal information from You as part of providing our services. By using our services, You grant us the right to collect, store, process, and use Your information in accordance with our Privacy Policy. Please review our Privacy Policy to understand how we handle and protect Your data.\n
+\n
+Limitation of Liability\n
+To the maximum extent permitted by applicable law, AXForAsset and its affiliates shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or in connection with the use or inability to use our services. This includes any damages resulting from errors, omissions, interruptions, or loss of data.\n
+\n
+Termination\n
+We reserve the right to terminate or suspend Your access to our services at any time, without prior notice or liability, for any reason or no reason at all. Upon termination, all provisions of this Agreement that are intended to survive termination shall remain in effect.\n
+\n
+Amendments\n
+We reserve the right to modify or update this Agreement at any time without prior notice. Any changes will be effective immediately upon posting the updated Agreement on our website. It is Your responsibility to review this Agreement periodically to ensure You are aware of any modifications.\n
+\n
+Governing Law and Jurisdiction\n
+This Agreement shall be governed by and construed in accordance with the laws of the universe. Any disputes arising out of or relating to this Agreement shall be subject to the exclusive jurisdiction of the courts located in Earth.\n
+\n
+By using our services, You acknowledge that You have read, understood, and agreed to all the terms and conditions outlined in this Agreement.\n
+\n
+If You have any questions or concerns about this Agreement, please contact us at AXForAsset@binus.ac.id.\n
+\n
+Thank you for choosing AXForAsset !\n"/>
+
+    </ScrollView>
+
+
+</FrameLayout>

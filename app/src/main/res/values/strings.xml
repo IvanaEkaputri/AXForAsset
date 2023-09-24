@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectUX</string>
+    <string-array name="PaymentType">
+        <item>Visa</item>
+        <item>Master Card</item>
+        <item>Credit Card</item>
+    </string-array>
+</resources>
